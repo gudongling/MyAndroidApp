@@ -4,6 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    @Override
+    public void showLockTaskEscapeMessage() {
+        super.showLockTaskEscapeMessage();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
